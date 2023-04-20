@@ -1,6 +1,12 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+.selfportrait {
+  width: 3in;
+}
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 300%;
+  text-indent: 4in;
 }
