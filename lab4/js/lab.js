@@ -1,6 +1,17 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Paulina ppatino@ucsc.edu & Sa'Niya smurphy5@ucsc.edu
+// Date: 4/24/23
+
+// Color Mixer!
+// Click 2 different colors to mix and learn color theory!
+
+// Print the game and color palette before each turn
+// Accept the users input ( the colors that are chosen to mix)
+// Validate user move
+// Print paint brush
+// Add mixed color to paint brush
+// Show color card
+// Start from beginning
 
 // Constants
 
