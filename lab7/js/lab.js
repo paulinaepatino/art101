@@ -29,20 +29,11 @@ let person = prompt("Please enter your name",);
 
   "Hello " + person + "! How are you today?";
 
-
 // Sort the letters of the user's name and return those from the function.
   // Hint: You can't sort strings, but you can sort arrays. Can you convert it back and forth?
-
   
 reverseString(person);
 document.writeln(reverseString(person))
-
-
-
-
-
-  
-     
    
 // Outside of the function, call the function and output the results with document.writeln() to neatly output the user's sorted name.
 
