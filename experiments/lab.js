@@ -12,7 +12,7 @@ function main() {
   // the code that makes everything happen
 }
 
-// let's get this party started
+
 main();
 var myTransport
 var bus 
@@ -43,16 +43,12 @@ function multiply(x, y,) {
   var product = x * y;
   return product;
 }
-
 var z = multiply(256, 256)
-
-
 
 function myTransport(bus, walk, plane, uber)
 
 var sortedArray = array.sort();
 var reversedArray = sortedArray.reverse();
-
 sortedArray([1, 2, 13, 5])
 
 // Write a JavaScript function that accepts an array and sorts it in descending order.
@@ -61,12 +57,41 @@ var myTransport = ["bus", "walk", "plane", "uber"]
   .reverse (myTRansport)
 
 // Have the function return the new array
-
 // Define an array of numbers.
 a = [1, 2, 4, 13, 34, 5]
 
-// Call the function, passing the array, and print the results to the console.
 
 
+// Lecture notes 
+// 5/4/23
 
+//SCOPE
+// is like vegas, everything that happens in the scope stays in the scope.
+var marginShift = 100
+function adjustMargin(n) {
+  return n + marginShift;
+}
+// function Parameters (Param) are limited to the function
+
+// callback example (not anonymous):
+var a = [69, 420, 42, 1312];
+
+function mapPlay(x) {
+	console.log(x + " is the best number");
+}
+
+a.map(mapPlay);
+
+
+// map is a  method that applies to an array
+
+var a = [69, 420, 42, 1312];
+
+function mapPlay(x) {
+	return x * x;
+}
+
+var results = a.map(mapPlay);
+
+console.log(results);
 
