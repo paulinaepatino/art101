@@ -17,5 +17,13 @@ function main() {
   // the code that makes everything happen
 }
 
-// let's get this party started
-main();
+// Use getElementById() to find your output <div> and assign it to a variable outputEl
+var outputEl = document.getElementById("<div>")
+// Create a new element with document.createElement("p") and assign it to a variable new1El
+var new1El 
+// Change the html attribute of new1El to say something new.
+// Create another new element and assign it to a variable new2El
+// Change the html attribute of new2El to say something else.
+// Append both new elements one at a time using appendChild() to your output <div>
+// Change the css attributes of at least two elements of your page
+

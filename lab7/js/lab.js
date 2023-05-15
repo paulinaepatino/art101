@@ -44,3 +44,5 @@ document.writeln("fixing your name..." + person + "<br>")
 
 console.log("what a beautiful name " + person + "is!")
 }
+
+

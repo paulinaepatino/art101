@@ -12,7 +12,6 @@ function main() {
   // the code that makes everything happen
 }
 
-
 main();
 var myTransport
 var bus 
@@ -95,3 +94,35 @@ var results = a.map(mapPlay);
 
 console.log(results);
 
+// 5/9/23 notes for lab 9
+//DOM (document object model): structured object-oriented representation of the entire webpage.
+//accessing the dom
+document.documentElement 
+
+document.getElementsByTagName("x")
+document.getElementsByClassName("x")
+document.getElementById("x")
+//document by id is better because ypu dont have to deal with the array
+
+//assign variables to it to define (photoEL for photoElement)
+var photoEl = document.getElementById("headshot")
+
+//removing an element from the HTML 
+photoEl.innerHTML = "<h1>nothing to see here</h1>";
+
+
+var newEl = document.createElement("button");
+var photoEl = document.getElementById("headshot")
+photoEl.appendChild(newEl);
+newEl.innerHTML = "<h1>bello</h1>";
+ //creating a pathless button through js while editing html
+ //dom style names are different than they are in css, its not a different language though.
+newEl.style.fontSize = "30px";            
+
+//changing element
+var oldEl = document.getElementById("headshot")
+var newEl = document.createElement("div");
+oldEl.appendChild(newEl);
+newEl.id = "my-new-div";
+newEl.innerHTML = "HELLO!";
+newEl.style.fontSize = "1in";

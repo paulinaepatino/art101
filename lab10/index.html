@@ -26,26 +26,71 @@
 			<h1>Lab X - Subject/Topic</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Some challenges we faced were getting the output to appear on our site and getting our button to work. We had worked through these challenges eventually.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>The first problem was getting the output to appear so we gave and put javascript code into the html. The next pronlem was getting our button to work correctly so we did have to use chatgbt to help us. We got the button to work by refinig some of our chatgbt requests and reading the code step by step to make sure we didn't miss anything.  </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Overall this assignment was a little more tricky than others. We had to try to remember what was taught last thursday so working right after class is usually our best bet. We eventually figured it out and worked through our mistakes. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<p> This button will sort your input alphabetically! </p>
 					<div id="output"></div>
-			</div>
-				<h3>Script Output</h3>
+
+					<h3>Script Output</h3>
 			<div class=output>
         		<script type="text/javascript" src="js/lab.js"></script>
+
+		
+
+				<!-- chat code -->
+
+<head>
+  <title>Sort Names</title>
+</head>
+<body>
+  <input type="text" id="nameInput" placeholder="Enter names separated by commas">
+  <button id="sortButton">Sort Names</button>
+  <div id="output"></div>
+
+  <script>
+    // Namesort function
+    function namesort(names) {
+      return names.split(',').map(name => name.trim()).sort();
+    }
+
+    // Event listener for the button
+    document.getElementById('sortButton').addEventListener('click', function() {
+      // Get the value from the input field
+      var nameInput = document.getElementById('nameInput').value;
+
+      // Run the value through the namesort function
+      var sortedNames = namesort(nameInput);
+
+      // Create a new paragraph element for each sorted name
+      var outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = ""; // Clear previous results
+
+      sortedNames.forEach(function(name) {
+        var nameParagraph = document.createElement('p');
+        nameParagraph.textContent = name;
+        outputDiv.appendChild(nameParagraph);
+      });
+    });
+  </script>
+
+
+	<!-- chat code -->
+
+		
+				
 			</div>
 		</section>
 		<nav id="links">
