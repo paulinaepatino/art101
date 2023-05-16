@@ -126,3 +126,23 @@ oldEl.appendChild(newEl);
 newEl.id = "my-new-div";
 newEl.innerHTML = "HELLO!";
 newEl.style.fontSize = "1in";
+
+// Lecture - Libraries & jQuery
+// 5/16/23 notes for lab 11
+
+// Pure JS -> jQuery + JS: (written on board)
+// document.getElementById("photo") -> $("#photo")
+// document.getElementsByClassName("item")[0] -> $(".item")
+// Element.appendChild(somethingEl) -> Element.append(somethingEl)
+// element.innerHTML = "blah" -> element("blah")
+
+$("button").click(function(){
+//action goes here!
+});
+
+//web example (axction is to remove h1)
+$("button").click(function(){
+  $("h1").remove();
+});
+
+$(".courses").append("<button id='my-button'>click me</button>")
