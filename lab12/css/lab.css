@@ -7,3 +7,25 @@
     border: solid 3px #4e1bbb;
     background-color: #ffffff;
   }
+  .straws {
+    width: 4in;
+  }
+  
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 6px #f8ff8f;
+    background-color: #85dd55;
+  }
+
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #1b81f5;
+    background-color: #ffffff;
+  }
+  body {
+    background-color: #ff5e9f;
+    font-family: 'arial';
+  }
+  

@@ -146,3 +146,48 @@ $("button").click(function(){
 });
 
 $(".courses").append("<button id='my-button'>click me</button>")
+
+// Lecture - Conditionals
+// 5/18/23 notes for lab 12
+
+// D on't
+// R epeat
+// Y ourself
+
+// notes reflecting on lab 11
+$("highlight-button").click(function(){
+//using "this" to refer to the button, and traversing the DOM to the parent
+//"this" in any case, refers to the things usrroundingn it
+$(this).parent().toggleClass("special");
+})
+// buttons dont have to directly change something, they can just be a class that enacts a different kind fo css, etc.
+// for example, "business" regular page, and "party" page with many changes, but the button only turns them on.
+
+//Booleans & Expressions
+money = 4
+// returns "4"
+if (money > 3) {
+    console.log("Go eat a  taco");
+} else {
+    console.log("Sorry you're gonna be hungry.");
+}
+// returns "Go eat a taco"
+
+
+// Example Conditional
+// this conditional reads the value input by the user, and determines if it is divisible by 3 by dividing it by 3 and seeing it it equals 0.
+
+//Assign a numeric value to a variable called num
+var num = prompt("Enter a number");
+
+//Write an if/else statement that tests if the variable is divisible by 3 (hint: the mod/remainder operator is %) 
+if (num % 3 == 0) {
+//If the variable is evenly divisible, output "Divisible by 3". If the variable is not, output "Not evenly divisible."
+console.log("Divisible by 3");
+}
+//if not, output "Not evenly divisible."
+else {
+console.log("Not evenly divisible. (remainder: "+ num % 3 +
+")")
+}
+//Try changing the value of the number to test if your code works

@@ -16,11 +16,10 @@
   }
   
   .special {
-    background-color: #fdf7ed;
-    border: solid 1px maroon;
+    background-color: #d4ffef;
+    border: solid 1px rgb(255, 255, 255);
   }
   .active {
     color: #ff99ff;
     background-color: pink;
   }
-  
