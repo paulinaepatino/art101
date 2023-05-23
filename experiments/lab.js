@@ -147,8 +147,10 @@ $("button").click(function(){
 
 $(".courses").append("<button id='my-button'>click me</button>")
 
+//----------------------------------------------------------------------------------------------------------------
 // Lecture - Conditionals
 // 5/18/23 notes for lab 12
+//----------------------------------------------------------------------------------------------------------------
 
 // D on't
 // R epeat
@@ -191,3 +193,66 @@ console.log("Not evenly divisible. (remainder: "+ num % 3 +
 ")")
 }
 //Try changing the value of the number to test if your code works
+
+//----------------------------------------------------------------------------------------------------------------
+// Lecture - Loops
+// 5/23/23 notes for lab 13
+//----------------------------------------------------------------------------------------------------------------
+
+// For Loops
+// for when we know how many times we need to repeat a task
+for (var i=0; i<5; i++) {
+  console.log(i);
+}
+// happens as long as i is less than 5
+
+for (var sheep=1; sheep<=100; sheep++) {
+  console.log("Counting sheep number:",
+sheep);
+}
+
+for (var i=0; i<fruits.length; i++) {
+  console.log("Weird fruit number " + i + ": " + fruits[i]);
+}
+
+for (var number=1; number<=100; number++) {
+  if (number % 3 == 0)
+    console.log("fizz");
+      if (number % 5 == 0)
+    console.log("buzz");
+    else {
+  console.log(number)
+    }}
+
+//jsfiddle for loop
+for (var i= 0; i<200; i++) {
+
+  if (i % 15 == 0) {
+    console.log("fizzbuzz");
+    $("#output").append("<div>" + "fizzbuzz");
+  }
+
+  else if (i % 3 == 0) {
+  console.log("fizz")
+  $("#output").append("<div>" + "fizz");
+  }
+
+
+
+  else if (i % 5 == 0) {
+  console.log("buzz")
+  $("#output").append("<div>" + "buzz");
+  }
+
+  else {
+  console.log (i)
+  $("#output").append("<div>" + i + "!");;
+  }
+}
+
+// Weird fruit number 0: kiwi
+// Weird fruit number 1: kumquat
+// Weird fruit number 2: jackfruit
+// Weird fruit number 3: durian
+
+// While Loops

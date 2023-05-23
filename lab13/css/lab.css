@@ -7,3 +7,11 @@
     border: solid 3px #4e1bbb;
     background-color: #ffffff;
   }
+
+  .loopbus {
+    width: 3in;
+  }
+
+  #output {
+    columns: 11;
+  }
