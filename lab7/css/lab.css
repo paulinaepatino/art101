@@ -7,3 +7,31 @@
     border: solid 3px #4e1bbb;
     background-color: #ffffff;
   }
+
+  .wizard {
+    width: 3in;
+  }
+ 
+  
+  h1,h2,h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#ffffff
+  }
+  p {
+    
+    color:#fffb7e
+  }
+ 
+
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #f0ff24;
+    background-color: #2b1e80;
+  }
+  .minor-section1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #f0ff24;
+    background-color: #665ca7;
+  }

@@ -1,5 +1,13 @@
 // JavaScript Experiments & Notes
 //    notes following lectures
+//IMAGE CODE
+
+// css:.straws {
+// width: 4in;
+//}
+//html: <img class="straws" src="./img/flavor.jpg">
+
+
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
@@ -255,4 +263,5 @@ for (var i= 0; i<200; i++) {
 // Weird fruit number 2: jackfruit
 // Weird fruit number 3: durian
 
-// While Loops
+
+

@@ -25,24 +25,27 @@ function fixPerson(person){
   }
 
 function main(){
-let person = prompt("Please enter your name",);
+let person = prompt("Please enter your name for the String Wizard!",);
 
-  "Hello " + person + "! How are you today?";
+
 
 // Sort the letters of the user's name and return those from the function.
   // Hint: You can't sort strings, but you can sort arrays. Can you convert it back and forth?
   
 reverseString(person);
-document.writeln(reverseString(person))
+document.writeln(reverseString(person), "<br>")
    
 // Outside of the function, call the function and output the results with document.writeln() to neatly output the user's sorted name.
 
-  console.log("Main function started.");
+console.log("Main function started.");
  
 //output
-document.writeln("fixing your name..." + person + "<br>")
 
-console.log("what a beautiful name " + person + "is!")
+document.writeln("isn't " + (reverseString(person)) + " a beautiful name?<br>")
+
+document.writeln("alright alright, fixing your name back to " + person + "!")
+
+
 }
 
 

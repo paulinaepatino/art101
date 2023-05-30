@@ -23,7 +23,7 @@ function sortingHat(str) {
   else if (mod == 3){
     return "Strawberry"
   }
-  }
+}
 
   var myButton = document.getElementById("button");
   myButton.addEventListener("click", function(){
