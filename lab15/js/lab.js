@@ -2,20 +2,39 @@
 // Author: Your Name
 // Date:
 
-// Constants
+$.get( "https://yesno.wtf/#api", function( data ) {
+	$("#myDiv").html(data);
+}).fail(function(){
+    alert("There was an error");
+});
 
-// Functions
+$.ajax({
+  // API endpoint
+  url: "https://yesno.wtf/#api",
+  // Any data to send
+  data: { id: 123},
+  // POST or GET request
+  type: "GET",
+  // data type we expect back
+  dataType : "json",
+})
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+$(document).ready(function() {
+  $('#myButton').click(function() {
+    // Make an AJAX call to fetch data from the API
+    $.ajax({
+      url: 'https://yesno.wtf/api',
+      method: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        // Display the output in the output div
+        $('#output').html('<img src="' + data.image + '">');
+      },
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+      error: function(error) {
+        console.log('Error:', error);
+      }
+    });
+  });
+});
 
-// let's get this party started
-main();
