@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 16: JSON and APIs</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,27 +23,54 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 16: JSON and APIs (XKCD comic!)</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>For the most part this lab was similar to the last one. Our biggest challenge was that we were mostly confused on what the outcome of the lab was supposed to be. We ended up creating our comic and getting it to upload on our webpage.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>We attempted task X and weren’t completely sure if we had done it right but we wanted to give it a go, our main problem was not really knowing how to input an image into the "src" in the html, while having an interchangeable "src" to navigate scrolling through the comics.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Because this lab was worth more than the others we wanted to make sure we were going about it correctly, we debugged for a while and went back and forth on Task X to make sure we had given it our all and tried everything we could. We input the previous and next buttons but unfortunately could not get them to work. We tried an IF function by inputting 
+						<br>
+						if (currentComicNumber < 1) { <br>
+							  currentComicNumber = 1;
+						
+					</br>
+						But we still did not get results where we were able to navigate the comics through the buttons.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
-			</div>
-				<h3>Script Output</h3>
+
+					<section id="comic-section">
+						<h1 id="comic-title"></h1>
+						<img id="comic-image" src="https://imgs.xkcd.com/comics/marble_run.png" alt="Marble Comic" title="Marble Run">
+					  </section>
+					
+					  
+						  <h2>XKCD Comic Viewer</h2>
+						
+						  <section id="comic-section">
+							<h1 id="comic-title"></h1>
+							<img id="comic-image" src="https://imgs.xkcd.com/comics/woodpecker.png" alt="Comic Image">
+						  </section>
+						  
+						  <button id="prev-btn">Previous</button>
+						  <button id="next-btn">Next</button>
+						
+						  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+						  <script src="script.js"></script>
+
+					  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+					  <script src="script.js"></script>
+
 			<div class=output>
         		<script type="text/javascript" src="js/lab.js"></script>
 			</div>
